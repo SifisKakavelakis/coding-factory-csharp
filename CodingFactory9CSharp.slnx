@@ -1,4 +1,15 @@
 <Solution>
+  <Project Path="CitiesFor/CitiesFor.csproj" Id="3b39e1ce-3b2e-4931-99cd-f9939ace4647" />
+  <Project Path="DoWhileApp/DoWhileApp.csproj" Id="fa3ffbed-23d2-4dc7-a1a9-18ea20d447f8" />
+  <Project Path="FormatExceptionApp/FormatExceptionApp.csproj" Id="d655513b-28f3-46e9-8c52-b38a7c6c83e3" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
+  <Project Path="IfCases/IfCases.csproj" Id="65308000-2739-4aed-b871-5804c2703a80" />
+  <Project Path="KilometersApp/KilometersApp.csproj" />
+  <Project Path="MethodsApp/MethodsApp.csproj" Id="83de0694-86b7-4e7b-a2ae-64c9d1765619" />
+  <Project Path="NumberRead/NumberRead.csproj" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
+  <Project Path="ProductsVat/ProductsVat.csproj" />
+  <Project Path="SwapApp/SwapApp.csproj" Id="175a1742-d683-4d16-97cf-02248399d6f7" />
+  <Project Path="SwitchApp/SwitchApp.csproj" Id="f35ae015-674c-4271-b801-2b0960744d37" />
+  <Project Path="WhileApp/WhileApp.csproj" Id="4e48b680-6789-4bb7-b053-3db879a262ad" />
 </Solution>
