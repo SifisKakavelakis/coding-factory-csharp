@@ -1,14 +1,23 @@
 <Solution>
+  <Project Path="ArgsDemo/ArgsDemo.csproj" Id="5ed55007-5e46-4a4b-a0bd-41836e01700a" />
+  <Project Path="ArrayApp/ArrayApp.csproj" Id="4cb30aba-a689-4eb4-bd13-11f48a2d509c" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="3b39e1ce-3b2e-4931-99cd-f9939ace4647" />
   <Project Path="DoWhileApp/DoWhileApp.csproj" Id="fa3ffbed-23d2-4dc7-a1a9-18ea20d447f8" />
+  <Project Path="ExpressionBodyMethods/ExpressionBodyMethods.csproj" Id="d8e5b02c-01e2-4729-87c6-a4cc95e6876c" />
+  <Project Path="ExtractCapitals/ExtractCapitals.csproj" Id="3dc353a6-28aa-4bec-b54a-9e14d2a3c089" />
   <Project Path="FormatExceptionApp/FormatExceptionApp.csproj" Id="d655513b-28f3-46e9-8c52-b38a7c6c83e3" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="IfCases/IfCases.csproj" Id="65308000-2739-4aed-b871-5804c2703a80" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
+  <Project Path="LinqArrays/LinqArrays.csproj" Id="5fa18240-cc55-4a3e-9096-74fe245f89eb" />
   <Project Path="MethodsApp/MethodsApp.csproj" Id="83de0694-86b7-4e7b-a2ae-64c9d1765619" />
+  <Project Path="NullableApp/NullableApp.csproj" Id="b2f86e74-ceee-404d-b934-1aca4c352f10" />
   <Project Path="NumberRead/NumberRead.csproj" />
+  <Project Path="PalindromeStr/PalindromeStr.csproj" Id="791cf8b6-bef4-4350-9ea7-87f19236117e" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
+  <Project Path="StringBuilderApp/StringBuilderApp.csproj" Id="8eb62f68-5c63-479f-a7ce-eeca2f783e8b" />
+  <Project Path="StringsApp/StringsApp.csproj" Id="2ed125fb-0041-4ce8-ae40-70767b9531a2" />
   <Project Path="SwapApp/SwapApp.csproj" Id="175a1742-d683-4d16-97cf-02248399d6f7" />
   <Project Path="SwitchApp/SwitchApp.csproj" Id="f35ae015-674c-4271-b801-2b0960744d37" />
   <Project Path="WhileApp/WhileApp.csproj" Id="4e48b680-6789-4bb7-b053-3db879a262ad" />
