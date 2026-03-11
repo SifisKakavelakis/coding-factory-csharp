@@ -10,17 +10,19 @@ namespace ExtractCapitals
         }
 
         // Extract capital letters from a string
-        public static string ExtractCapitals(string input)
+        public static string ExtractCapitals(string? input)
         {
-            StringBuilder capitals = new StringBuilder();
-            foreach (char c in input)
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < input?.Length; i++)
             {
+                char c = input[i];
                 if (char.IsUpper(c))
                 {
-                    capitals.Append(c);
+                    sb.Append(c);
                 }
             }
-            return capitals.ToString();
+            return sb.ToString();
         }
     }
 }
