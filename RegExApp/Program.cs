@@ -58,7 +58,7 @@ namespace RegExApp
         }
 
         // Zero-length assertions
-        public static bool TestPassword(string! s)
+        public static bool TestPassword(string? s)
         {
             return Regex.IsMatch(s!, @"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*]).{12}");
         }
