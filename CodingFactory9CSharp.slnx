@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AccountApp/AccountApp.csproj" Id="43729aba-6e77-4212-afdd-cbe757a2f54f" />
   <Project Path="ArgsDemo/ArgsDemo.csproj" Id="5ed55007-5e46-4a4b-a0bd-41836e01700a" />
   <Project Path="ArrayApp/ArrayApp.csproj" Id="4cb30aba-a689-4eb4-bd13-11f48a2d509c" />
   <Project Path="CitiesFor/CitiesFor.csproj" Id="3b39e1ce-3b2e-4931-99cd-f9939ace4647" />
@@ -17,6 +18,7 @@
   <Project Path="NumberRead/NumberRead.csproj" />
   <Project Path="PalindromeStr/PalindromeStr.csproj" Id="791cf8b6-bef4-4350-9ea7-87f19236117e" />
   <Project Path="PocoApp/PocoApp.csproj" Id="9f90bf2c-80f9-41ed-8e5c-f432e250a71b" />
+  <Project Path="PointApp/PointApp.csproj" Id="0ebc256f-06fa-4fe3-a783-7bf72f466aec" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
   <Project Path="RegExApp/RegExApp.csproj" Id="11e5fab8-27b7-4221-89f9-542d6e2dbc2b" />
