@@ -1,0 +1,24 @@
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
+namespace WebAppStarter9.DTO
+{
+    public record InsertStudentDTO
+    (
+        [property: Required(ErrorMessage = "Firstname is required.")]
+        [property: MinLength(1, ErrorMessage = "Firstname must not be empty.")]
+        string? Firstname,
+
+        [property: Required(ErrorMessage = "Lastmame is required.")]
+        [property: MinLength(1, ErrorMessage = "Lastname must not be empty.")]
+        string? Lastname,
+
+        int SelectedCityId
+
+    )
+    {
+        public InsertStudentDTO() : this(default, default, default)
+        {
+        }
+    }
+}
