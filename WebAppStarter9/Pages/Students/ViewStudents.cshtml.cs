@@ -1,0 +1,33 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using WebAppStarter9.DTO;
+
+namespace WebAppStarter9.Pages.Students
+{
+    public class ViewStudentsModel : PageModel
+    {
+
+        public List<StudentReadOnlyDTO> StudentReadOnlyDTOs { get; set; } = [];
+        public IActionResult OnGet()
+        {
+            string? lastname = Request.Query["lastname"];
+
+            var allStudents = GetAllStudents();
+
+            StudentReadOnlyDTOs = string.IsNullOrEmpty(lastname)
+                ? allStudents
+                : [.. allStudents.Where(s => s.Lastname == lastname)];
+
+            return Page();
+        }
+
+        private List<StudentReadOnlyDTO> GetAllStudents()
+        {
+            return [
+                new StudentReadOnlyDTO(1, "Γεώργιος", "Αλεξανδρής"),
+                new StudentReadOnlyDTO(2, "Γεωργία", "Αλεξανδρή"),
+                new StudentReadOnlyDTO(1, "Αθηνά", "Γεωργίου"),
+                ];
+        }
+    }
+}
