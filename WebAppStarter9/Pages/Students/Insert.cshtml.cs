@@ -35,7 +35,7 @@ namespace WebAppStarter9.Pages.Students
             TempData["Studentname"] =
                 $"{StudentReadOnlyDTO.Firstname} {StudentReadOnlyDTO.Lastname}";
 
-            return RedirectToPage("./Students/Success");
+            return RedirectToPage("/Students/Success");
         }
 
         private void LoadCities()
